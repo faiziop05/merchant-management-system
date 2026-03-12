@@ -1,7 +1,4 @@
-# YQN Pay - Merchant Management System (Backend)
-
-This is a server-side application built with Node.js and Express. It manages the onboarding, KYB (Know Your Business) verification, and status tracking for merchants.
-
+# Merchant Management System (Backend)
 
 ## Prerequisites
 
@@ -32,7 +29,6 @@ Create a new file named `.env` in the root folder of the project. You can copy t
 Inside your new `.env` file, add your secret keys:
 
 ```text
-PORT=3000
 JWT_KEY=add_JWT_secret_here
 WEBHOOK_SECRET=add_webhook_secret here
 
