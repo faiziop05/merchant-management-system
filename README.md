@@ -33,15 +33,15 @@ Inside your new `.env` file, add your secret keys:
 
 ```text
 PORT=3000
-JWT_KEY=your_super_secret_jwt_key_here
-WEBHOOK_SECRET=your_super_secret_webhook_key_here
+JWT_KEY=add_JWT_secret_here
+WEBHOOK_SECRET=add_webhook_secret here
 
 ```
 
 **4. Start the server**
 
 ```bash
-node app.js
+node index.js
 
 ```
 
@@ -54,6 +54,8 @@ This project does not connect to a live external database. Instead, it uses loca
 ## API Overview
 
 All routes are protected and require a valid token in the `Authorization` header (`Bearer <token>`).
+
+Api Postman collection JSON file `Postman_Collection.json` also present in the code. Just import this file as collction in Postman to test all api endpoints. Make sure to add `Bearer Token` and `id` of merchant to run all API endpoints.
 
 **Authentication**
 

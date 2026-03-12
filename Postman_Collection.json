@@ -1,7 +1,7 @@
 {
 	"info": {
-		"name": "YQN Pay API",
-		"description": "Complete API testing suite for the YQN Pay Merchant Management System.",
+		"name": "Postman collection API",
+		"description": "Complete API testing suite for Merchant Management System.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -473,7 +473,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n  \"targetUrl\": \"https://webhook.site/your-unique-url-here\"\n}"
+							"raw": "{\n  \"targetUrl\": \"https://webhook.site/your-url-will-go-here\"\n}"
 						},
 						"url": {
 							"raw": "http://localhost:3000/api/webhooks/subscribe",
